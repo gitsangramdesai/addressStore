@@ -1,0 +1,13 @@
+INSERT INTO countryList (name)
+VALUES
+('USA'),
+('Canada');
+
+
+INSERT INTO cityList (countryId, name)
+VALUES
+(1, 'Mumbai'),
+(1, 'Delhi'),
+(5, 'New York'),
+(5, 'Chicago'),
+(6, 'Toronto');
